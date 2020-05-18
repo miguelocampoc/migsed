@@ -1,0 +1,24 @@
+
+#desktop{
+    display:none;
+}
+@media screen and (max-width:700px ) {
+    #movile{
+        display:block;
+    }
+    #img-favicon{
+     width:250px;
+     height:250px;
+    }
+    #medium{
+        display:none;
+    }
+}
+@media screen and (min-width:1025px ) {
+    #md-mv{
+        display:none;
+    }
+    #desktop{
+        display:block;
+    }
+}
